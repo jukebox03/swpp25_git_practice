@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Log.d("Activity Lifecycle", "MainActivity Start")
+        
     }
 
     private var count = 0
